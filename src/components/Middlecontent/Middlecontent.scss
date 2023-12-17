@@ -1,7 +1,8 @@
 .middleContent {
   background-image: url("../../assets/375px/background.png");
   // background-size: 100%;
-  background-size: 100% auto;
+  // background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 200px;
 
@@ -9,6 +10,14 @@
 
   display: flex;
   align-items: flex-end;
+
+  .desktop {
+    display: none;
+
+    @media screen and (min-width: 768px) {
+      display: block;
+    }
+  }
 
   @media screen and (min-width: 375px) {
     background-image: url("../../assets/768px/background.png");
@@ -29,5 +38,13 @@
   @media screen and (min-width: 1200px) {
     background-image: url("../../assets/1440px/background.png");
     height: 700px;
+  }
+}
+
+.mobile {
+  display: block;
+
+  @media screen and (min-width: 768px) {
+    display: none;
   }
 }
