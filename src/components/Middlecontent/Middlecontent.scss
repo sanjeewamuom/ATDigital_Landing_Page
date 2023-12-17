@@ -1,0 +1,33 @@
+.middleContent {
+  background-image: url("../../assets/375px/background.png");
+  // background-size: 100%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 200px;
+
+  width: 100%;
+
+  display: flex;
+  align-items: flex-end;
+
+  @media screen and (min-width: 375px) {
+    background-image: url("../../assets/768px/background.png");
+    height: 275px;
+  }
+
+  @media screen and (min-width: 500px) {
+    background-image: url("../../assets/768px/background.png");
+    height: 360px;
+  }
+
+  @media screen and (min-width: 768px) {
+    background-image: url("../../assets/1200px/background.png");
+
+    height: 560px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    background-image: url("../../assets/1440px/background.png");
+    height: 700px;
+  }
+}

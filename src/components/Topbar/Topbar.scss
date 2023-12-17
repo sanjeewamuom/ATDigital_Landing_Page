@@ -1,0 +1,40 @@
+.topbar {
+  background: #6b3cc9;
+  padding: 26px 40px;
+
+  @media screen and (max-width: 675px) {
+    padding: 16px 20px;
+  }
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .menu-items {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+
+    @media screen and (max-width: 675px) {
+      display: none;
+    }
+  }
+
+  .menu-burger {
+    background-image: url("../../assets/burger.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 31px;
+    height: 24px;
+
+    @media screen and (min-width: 675px) {
+      display: none;
+    }
+  }
+}
