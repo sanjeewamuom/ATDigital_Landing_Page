@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ATDigital_Landing_Page/static/css/main.0b133d7f.css",
+    "main.js": "/ATDigital_Landing_Page/static/js/main.30b0adc0.js",
+    "static/js/787.e6094905.chunk.js": "/ATDigital_Landing_Page/static/js/787.e6094905.chunk.js",
+    "static/media/background.png": "/ATDigital_Landing_Page/static/media/background.f06776c941818580c2f0.png",
+    "static/media/banner2.png": "/ATDigital_Landing_Page/static/media/banner2.e52c7d05a5c711b7c9cc.png",
+    "static/media/banner1.png": "/ATDigital_Landing_Page/static/media/banner1.1f42d4f3f3920155f866.png",
+    "static/media/logo.svg": "/ATDigital_Landing_Page/static/media/logo.4dc8e7393f45aeaab34a882ab9acf46f.svg",
+    "index.html": "/ATDigital_Landing_Page/index.html",
+    "static/media/burger.svg": "/ATDigital_Landing_Page/static/media/burger.006d1c9bea815b447f08.svg",
+    "main.0b133d7f.css.map": "/ATDigital_Landing_Page/static/css/main.0b133d7f.css.map",
+    "main.30b0adc0.js.map": "/ATDigital_Landing_Page/static/js/main.30b0adc0.js.map",
+    "787.e6094905.chunk.js.map": "/ATDigital_Landing_Page/static/js/787.e6094905.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b133d7f.css",
+    "static/js/main.30b0adc0.js"
+  ]
+}
